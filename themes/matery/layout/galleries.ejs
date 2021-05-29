@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/css/gallery.css">
+
+<%- partial('_partial/bg-cover') %>
+
+<main class="content">
+    <div class="container">
+        <% if (theme.myGallery && theme.myGallery.enable) { %>
+            <%- partial('_widget/my-gallery') %>
+        <% } %>
+    </div>
+</main>
+
